@@ -7,6 +7,12 @@
 /****** Position *****/
 .position-relative{ position: relative !important;}
 .position-absolut { position: absolute !important;}
+.overflow-hidden  {overflow: hidden;}
+.centerXY {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
 
 /****** Margin ******/
 .mr-auto, .mx-auto{margin-right: auto ;}
@@ -57,6 +63,7 @@ nav div a:not(:first-child){ margin-left: var(--distance-12);}
 
 /******* Terography*******/
 .text-decoration-none {text-decoration: none;}
+.text-center {text-align: center;}
 
 .text-size-xxs {font-size: var(--display-xxs);}
 .text-size-xs  {font-size: var(--display-xs);}
@@ -83,3 +90,19 @@ nav div a:not(:first-child){ margin-left: var(--distance-12);}
 
 /******** Logo width ******/
 .logo-width{max-width: 13rem ;}
+
+/******* Slideshow ******/
+.slider-width { width: 400% ;}  /*4 images, 100% per image*/
+.slider-container {width: 25%;}  /* Display first of 4 images*/
+.slider-image {width: 100%; object-fit: cover;}
+/* .slider-animation { animation: 30s slider-keyframes infinite;} */
+
+@keyframes slider-keyframes {    /*advanced css for sliding*/
+    0%  {left: 0%;}
+    15% {left: -100%;}
+    30% {left: -200%;}
+    45% {left: -300%;}
+    60% {left: -200%;}
+    75% {left: -100%;}
+    100%{left: 0%;}
+}
