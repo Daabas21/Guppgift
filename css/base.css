@@ -42,10 +42,11 @@
     --distance-9:2.25rem;
     --distance-10:2.5rem;
     --distance-11:2.75rem;
-    --distance-12:3.25rem;
-    --distance-13:3.5rem;
-    --distance-14:3.75rem;
-    --distance-15: 4rem;
+    --distance-12:3rem;
+    --distance-13:3.25rem;
+    --distance-14:3.5rem;
+    --distance-15: 3.75rem;
+    --distance-16: 4 rem;
 
     /*******Shadows******/
     --shadow-small-light:.15rem .15rem 0 rgba(0,0,0,0.1);
@@ -110,16 +111,16 @@ body{
 
 
 /*****Text colors******/
-.text-primary{border-color: var(--color-primary);}
-.text-secondary{border-color: var(--color-secondary);}
-.text-success{border-color: var(--color-success);}
-.text-info {border-color: var(--color-info);}
-.text-warning {border-color: var(--color-warning);}
-.text-danger {border-color: var(--color-danger);}
-.text-light {background-color: var(--color-light);}
-.text-dark {background-color: var(--color-dark);}
-.text-white {background-color: var(--color-white);}
-.text-cozy {background-color: var(--color-cozy);}
+.text-primary{color: var(--color-primary);}
+.text-secondary{color: var(--color-secondary);}
+.text-success{color: var(--color-success);}
+.text-info {color: var(--color-info);}
+.text-warning {color: var(--color-warning);}
+.text-danger {color: var(--color-danger);}
+.text-light {color: var(--color-light);}
+.text-dark {color: var(--color-dark);}
+.text-white {color: var(--color-white);}
+.text-cozy {color: var(--color-cozy);}
 
 
 /******Borders Colors********/
