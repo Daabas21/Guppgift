@@ -87,6 +87,7 @@ nav div a:not(:first-child){ margin-left: var(--distance-12);}
 
 /******** circle *******/
 .circle{border-radius: 100%;}
+.circle-lg {width: 15rem; height: 15rem;}
 
 /******* Shadows *******/
 .shadow-sm {box-shadow: var(--shadow-small-light);}
