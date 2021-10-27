@@ -105,6 +105,7 @@ nav div a:not(:first-child){ margin-left: var(--distance-12);}
 .border-small-white {border: var(--border-xs-white);}
 .border-radius {border-radius: var(--border-radius-sm);}
 .border-bottom-xs {border-bottom: var(--border-xs);}
+.border-bottom-md {border-bottom: var(--border-secondary-xs);}
 .border-sm {border: var(--border-sm);}
 .border-lg {border: var(--border-lg);}
 .border-transparent {border: var(--border-transparent);}
